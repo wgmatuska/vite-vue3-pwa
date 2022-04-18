@@ -17,12 +17,13 @@ const count = ref(0)
 
   <p>{{ secondmsg }}</p>
 
+  <p>{{ thirdmsg }}</p>
+
   <p>
     Just some text in a paragraph.
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>{{ thirdmsg }}</p>
 </template>
 
 
