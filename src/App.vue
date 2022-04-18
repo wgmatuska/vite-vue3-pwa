@@ -2,12 +2,18 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import MySFC from './components/mySFC.vue'
+import Joystick from './components/Joystick.vue'
+
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="[msg parameter]" secondmsg="[secondmsg parameter]" thirdmsg="[thirdmsg parameter]" />
+  <MySFC mynumber="6" />
+  <Joystick @click="console.log('Clicked')" />
 </template>
+
 
 <style>
 #app {
