@@ -8,7 +8,6 @@ import Joystick from './components/Joystick.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="[msg parameter]" secondmsg="[secondmsg parameter]" thirdmsg="[thirdmsg parameter]" />
   <MySFC mynumber="6" />
   <Joystick @click="console.log('Clicked')" />
