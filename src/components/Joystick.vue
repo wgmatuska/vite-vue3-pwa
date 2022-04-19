@@ -34,6 +34,17 @@
   height: var(--speed);
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+
 <template>
   <div
     class="vue-joystick"
@@ -45,6 +56,19 @@
     @touchend="handleRelease"
   ></div>
 </template>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
 export default {
   props: {
@@ -118,6 +142,9 @@ export default {
         speed: this.speed,
         angle: this.angle
       });
+    },
+    handlePrint(name = "print") {
+      console.log('test123');
     }
   },
   mounted() {

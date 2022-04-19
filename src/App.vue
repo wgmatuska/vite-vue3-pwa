@@ -7,11 +7,34 @@ import Joystick from './components/Joystick.vue'
 
 </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
 <template>
   <HelloWorld msg="[msg parameter]" secondmsg="[secondmsg parameter]" thirdmsg="[thirdmsg parameter]" />
   <MySFC mynumber="6" />
-  <Joystick @click="console.log('Clicked')" />
+  <Joystick @print="console.log('Clicked')" />
 </template>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <style>
